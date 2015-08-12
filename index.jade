@@ -8,10 +8,10 @@ html
 		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css")
 		script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js")
 		link(rel="stylesheet" href="css/style.css")
-	body
+	body#ui-controllers
 		.application-info-div#application-info-div
 			.icon-service#icon-service
-				img(src="http://resources.getheb.com/img/intert-logo-login-page.png" height="120" width="120" title="Intert" class="img-icon-service")
+				img(src="/img/generic_logo.png" height="120" width="120" title="Intert" class="img-icon-service")
 			.text-application-info-div#text-application-info-div
 				p.title-text-application-info-div Log in | Intert panel
 				p.description-text-application-info-div Connection to Intert panel. Get access to the administration of your services, an access to the client support and to a comunity help center.
@@ -49,4 +49,5 @@ html
 						span.right-options-alert
 							a(href="#" onclick="closePF()") Cancel
 		script(src="js/index.js")
+		script(src="js/background.js")
 

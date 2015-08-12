@@ -1,6 +1,6 @@
 body, html {
   margin: 0;
-  paddin: 0;
+  padding: 0;
   background: #F5F5F5;
   width: 100%;
 }
@@ -11,7 +11,7 @@ body, html {
   width: 800px;
   height: 120px;
   background: #FFFFFF;
-  margin: 5% 0 0 0;
+  margin: 3% 0 0 0;
 }
 
 .main-connection-div {
@@ -69,17 +69,17 @@ body, html {
 
 .cookies-used {
   width: 800px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   margin-left: auto !important;
   margin-right: auto !important;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #FFF;
-  margin: 5px 0 5% 0;
+  margin: 5px 0 0 0;
   font-weight: 300;
   padding: 20px;
   transition: .4s background;
-  display: none;
+  
 }
 
 .cookies-used:hover {
