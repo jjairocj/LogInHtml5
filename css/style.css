@@ -40,17 +40,17 @@ body, html {
 .title-text-application-info-div {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 23px;
-  font-weight: 300;
+  font-weight: 500;
   width: 82%;
 }
 
 .description-text-application-info-div {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   font-size; 16px;
   width: 82%;
 }
@@ -58,8 +58,8 @@ body, html {
 .application-status {
   margin: 0px 0 0 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   font-size: 13px;
 }
 
@@ -72,11 +72,11 @@ body, html {
   background: rgba(0, 0, 0, 0.9);
   margin-left: auto !important;
   margin-right: auto !important;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #FFF;
   margin: 5px 0 0 0;
-  font-weight: 300;
+  font-weight: 400;
   padding: 20px;
   transition: .4s background;
   
@@ -101,17 +101,17 @@ body, html {
 }
 
 .title-log-in-main-connection-div {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 5px 0 0 15px;
   padding: 0;
 }
 
 .title-register-main-connection-div {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 5px 0 0 15px;
   padding: 0;
 }
@@ -146,8 +146,8 @@ body, html {
 
 .password-forgotten {
   font-size: 13px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   margin: 15px 0 0 30px;
   width: 100%;
   height: 100%;
@@ -187,9 +187,9 @@ body, html {
 }
 
 .title-content-password-reset-div {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .content-content-password-reset-div {
@@ -198,8 +198,8 @@ body, html {
 }
 
 .text-content-content-password-reset-div {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   width: 100%;
 }
 
@@ -248,7 +248,13 @@ body, html {
 
 .options-alert a {
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #777;
   padding: 10px 30px;
+}
+
+.twitter-timeline{
+  height:290px;
+  border-color:red;
+  border:none;
 }
