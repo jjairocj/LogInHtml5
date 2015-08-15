@@ -8,6 +8,7 @@ html
 		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css")
 		script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js")
 		link(rel="stylesheet" href="css/style.css")
+
 	body#ui-controllers
 		.application-info-div#application-info-div
 			.icon-service#icon-service
@@ -27,12 +28,22 @@ html
 						.input-field.col.s6
 							input.validate(type="password" id="password intert-textarea")
 							label(for="password") Password
-						a.waves-effect.waves-light.btn-large(style="margin: 20px 0 0 30px; background: #3498db; width: 45%; position: inherit;") Log In
+						a.waves-effect.waves-light.btn-large(style="margin: 20px 0 0 30px; background: #ffa500; width: 45%; position: inherit;") Log In
 						span.remember-me-check
 							input#remember-me(type="checkbox")
 							label(for="remember-me" style="margin: 0; padding: 0 0 0 25px;") Remember me
-					p.password-forgotten Password Forgotten?
-						a(style="cursor:pointer" onclick="showPasswordForgotten()")	Click Here
+				p.password-forgotten Password Forgotten?
+					a(style="cursor:pointer" onclick="showPasswordForgotten()")	Click Here
+			.register-main-connection-div#register-main-connection-div
+				p.title-register-main-connection-div Tweets
+					form
+						.input-field.col.s6
+							input.validate(id="username intert-textarea" type="text")
+							label(for="username") E-mail
+						.input-field.col.s6
+							input.validate(id="password intert-textarea" type="text")
+							label(for="password") Password
+						a.waves-effect.waves-light.btn-large(style="margin: 20px 0 0 30px; background: #ffa500; width: 45%; position: inherit;") Sign Up
 		.cookies-used#cookies-used
 			span.text-cookies-used This website does not use cookies for tracking. They are only used for a better experience on our services. For more informations on what cookies are stored, please contact our support.
 		.password-reset-div#password-reset-div

@@ -88,9 +88,9 @@ body, html {
 
 .log-in-main-connection-div {
   width: 50%;
-  margin: 0 auto;
-  padding: 0 1em;
-
+  left: 0;
+  float: left;
+  height: 100%;
 }
 
 .register-main-connection-div {
