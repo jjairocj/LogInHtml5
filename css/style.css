@@ -123,25 +123,33 @@ body, html {
    
  /* label focus color */
 .main-connection-div .input-field input[type=text]:focus + label {
-   color: #3498db;
+   color: #ffa500;
+}
+.main-connection-div .input-field input[type=password]:focus + label {
+   color: #ffa500;
 }
 
  /* label underline focus color */
  .main-connection-div .input-field input[type=text]:focus {
-   border-bottom: 1px solid #3498db;
-   box-shadow: 0 1px 0 0 #3498db;
+   border-bottom: 1px solid #ffa500;
+   box-shadow: 0 1px 0 0 #ffa500;
+ } 
+
+.main-connection-div .input-field input[type=password]:focus {
+   border-bottom: 1px solid #ffa500;
+   box-shadow: 0 1px 0 0 #ffa500;
  } 
 
 /* valid color */
  .main-connection-div .input-field input[type=text].valid {
-   border-bottom: 1px solid #2ecc71;
-   box-shadow: 0 1px 0 0 #2ecc71;
+   border-bottom: 1px solid #ffa500;
+   box-shadow: 0 1px 0 0 #ffa500;
  }
 
  /* invalid color */
  .main-connection-div .input-field input[type=text].invalid {
-   border-bottom: 1px solid #e74c3c;
-   box-shadow: 0 1px 0 0 #e74c3c;
+   border-bottom: 1px solid #ffa500;
+   box-shadow: 0 1px 0 0 #ffa500;
  }
 
 .password-forgotten {
@@ -156,6 +164,7 @@ body, html {
 .remember-me-check {
   position: relative;
   top: 10px;
+  color: #ffa500 !important;
   margin: 0 0 0 10px;
 }
 
@@ -210,25 +219,25 @@ body, html {
    
  /* label focus color */
 .content-content-password-reset-div .input-field input[type=text]:focus + label {
-   color: #3498db;
+   color: #ffa500;
 }
 
  /* label underline focus color */
  .content-content-password-reset-div .input-field input[type=text]:focus {
-   border-bottom: 1px solid #3498db;
-   box-shadow: 0 1px 0 0 #3498db;
+   border-bottom: 1px solid #ffa500;
+   box-shadow: 0 1px 0 0 #ffa500;
  } 
 
 /* valid color */
  .content-content-password-reset-div .input-field input[type=text].valid {
-   border-bottom: 1px solid #2ecc71;
-   box-shadow: 0 1px 0 0 #2ecc71;
+   border-bottom: 1px solid #ffa500;
+   box-shadow: 0 1px 0 0 #ffa500;
  }
 
  /* invalid color */
  .content-content-password-reset-div .input-field input[type=text].invalid {
-   border-bottom: 1px solid #e74c3c;
-   box-shadow: 0 1px 0 0 #e74c3c;
+   border-bottom: 1px solid #ffa500;
+   box-shadow: 0 1px 0 0 #ffa500;
  }
 
 .options-alert {
